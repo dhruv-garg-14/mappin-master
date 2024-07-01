@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* background-color: rgb(33, 33, 33); */
+  background-color: #3b5b4c;
+  width:100vw;
+}
+
+.leaflet-container {
+  margin-top: 50px;
+  height: 100vh;
+  max-height: 600px;
+  margin-left: 30px;
+  width: calc(50% - 30px);
+  border: 2px solid;
+}
+
+.show-results {
+  border: 2px solid;
+  /* background-color: rgb(213, 213, 213); */
+  background-color: #64746c;
+  color: #e4eceb;
+  height: 100vh;
+  max-height: 600px;
+  margin-right: 30px;
+  width: calc(50% - 50px);
+  float: right;
+  padding-left: 10px;
+  font-family: 'montserrat';
+}
+
+.marker-cluster {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: rgb(72, 72, 72);
+  color: white;
+  transform: translate(-25%, -25%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+
+.heading {
+  width: 100%;
+  background-color: rgb(174, 108, 108);
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-family: 'montserrat';
+}
